@@ -73,11 +73,8 @@ plt.show()
 ## ORIGINAL IMAGE:
 ![edge](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/918b52c9-7b38-49ec-83a8-ce40b9a0495d)
 ### SOBEL EDGE DETECTOR:
-**SOBEL X AXIS :**
 ![d1](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/9b9cddf5-2c94-44fe-927a-5d3e3eeee552)
-**SOBEL Y AXIS :**
 ![d2](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/e5b0318a-c102-4f90-a76d-4f61b9321035)
-**SOBEL XY AXIS :**
 ![d3](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/bc5ede85-aabf-4b7f-8b2f-191d78911b9e)
 ### LAPLACIAN EDGE DETECTOR
 ![d4](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/1e91aada-fe49-4789-8d4e-1f02e2fc0965)

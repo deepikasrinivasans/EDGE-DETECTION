@@ -17,8 +17,10 @@ Using Sobel operator from cv2,detect the edges of the image.
 ### Step5:
 Using Laplacian operator from cv2,detect the edges of the image and Using Canny operator from cv2,detect the edges of the image.
 ## PROGRAM:
+```
 **DEVELOPED BY: Deepika S**
  **REGISTER NUMBER: 212222230028**
+```
 ## IMPORT PACKAGES AND LOAD IMAGES
   ```python
 import cv2

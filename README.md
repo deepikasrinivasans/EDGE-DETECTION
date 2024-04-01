@@ -17,10 +17,8 @@ Using Sobel operator from cv2,detect the edges of the image.
 ### Step5:
 Using Laplacian operator from cv2,detect the edges of the image and Using Canny operator from cv2,detect the edges of the image.
 ## PROGRAM:
-```
- DEVELOPED BY: Deepika S
- REGISTER NUMBER: 212222230028
-```
+**DEVELOPED BY: Deepika S**
+ **REGISTER NUMBER: 212222230028**
 ## IMPORT PACKAGES AND LOAD IMAGES
   ```python
 import cv2
@@ -31,7 +29,7 @@ gray=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
 gray = cv2.GaussianBlur(gray,(3,3),0)
 ```
 ## SOBEL EDGE DETECTOR:
-## SOBEL X:
+**SOBEL X:**
   ```python
   sobelx = cv2.Sobel(gray,cv2.CV_64F,1,0,ksize=5)
 plt.imshow(sobelx,cmap='gray')
@@ -39,7 +37,7 @@ plt.title("Sobel X axis")
 plt.axis("off")
 plt.show()
 ```
-## SOBEL Y:
+**SOBEL Y:**
 ```python
 sobely = cv2.Sobel(gray,cv2.CV_64F,0,1,ksize=5)
 plt.imshow(sobely,cmap='gray')
@@ -47,7 +45,7 @@ plt.title("Sobel Y axis")
 plt.axis("off")
 plt.show()
 ```
-## SOBEL XY:
+**SOBEL XY:**
   ```python
   sobelxy = cv2.Sobel(gray,cv2.CV_64F,1,1,ksize=5)
 plt.imshow(sobelxy,cmap='gray')
@@ -75,8 +73,11 @@ plt.show()
 ## ORIGINAL IMAGE:
 ![edge](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/918b52c9-7b38-49ec-83a8-ce40b9a0495d)
 ### SOBEL EDGE DETECTOR:
+**SOBEL X AXIS :**
 ![d1](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/9b9cddf5-2c94-44fe-927a-5d3e3eeee552)
+**SOBEL Y AXIS :**
 ![d2](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/e5b0318a-c102-4f90-a76d-4f61b9321035)
+**SOBEL XY AXIS :**
 ![d3](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/bc5ede85-aabf-4b7f-8b2f-191d78911b9e)
 ### LAPLACIAN EDGE DETECTOR
 ![d4](https://github.com/deepikasrinivasans/EDGE-DETECTION/assets/119393935/1e91aada-fe49-4789-8d4e-1f02e2fc0965)
